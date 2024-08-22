@@ -9,7 +9,7 @@ const Recipe = (props) => {
 
   return (
     <>
-      <div className="w-full bg-neutral-300 flex flex-wrap gap-4 px-[20px] sm:px-[40px]">
+      <div className="w-full h-screen bg-neutral-300 flex flex-wrap gap-4 px-[20px] sm:px-[40px]">
         {itemData.map((item) => (
           <div className="card bg-base-100 w-full sm:w-[48%] md:w-[30%] lg:w-[19%] shadow-2xl shadow-neutral-600 mt-5">
             <figure>
