@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import React from "react";
-import Recipe from "./recipe";
+import Recipe from "./Recipe";
 
 const SearchBar = () => {
   const [recipe, setRecipe] = useState([]); 
